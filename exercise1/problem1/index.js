@@ -1,5 +1,6 @@
 function numOfDigits(int) {
-  // Your code
+  const numString = Math.abs(int).toString();
+  return numString.length;
 }
 
 module.exports = numOfDigits;
