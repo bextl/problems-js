@@ -10,6 +10,8 @@ function isDisarium(number) {
 
   return sum === number;
 
+function isDisarium() {
+  // Your code
 }
 
 module.exports = isDisarium;

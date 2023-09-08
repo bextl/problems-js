@@ -14,6 +14,8 @@ function makeTitleCase(str) {
   const titleCaseStr = titleCaseWords.join(' ');
 
   return titleCaseStr;
+function makeTitleCase() {
+  // Your code
 }
 
 module.exports = makeTitleCase;

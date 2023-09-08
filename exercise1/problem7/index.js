@@ -8,6 +8,8 @@ function isPrimitive(value) {
     typeof value === 'bigint' ||
     typeof value === 'symbol'
   );
+function isPrimitive() {
+  // Your code
 }
 
 module.exports = isPrimitive;

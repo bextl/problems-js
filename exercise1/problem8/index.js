@@ -13,6 +13,8 @@ function longestTime(h, m, s) {
   else {
     return h;
   }
+function longestTime() {
+  // Your code
 }
 
 module.exports = longestTime;
