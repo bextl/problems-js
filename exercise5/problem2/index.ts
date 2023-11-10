@@ -1,9 +1,9 @@
-function printNumberInInterval(num:number) {
+function printNumberInInterval(num1:number) {
 
     let counter = 1; 
 
     const intervalId = setInterval(() => {
-        if (counter <= max) {
+        if (counter <= num1) {
           console.log(`after 1 sec - ${counter}`);
           counter++;
         } else {
@@ -11,6 +11,6 @@ function printNumberInInterval(num:number) {
         }
       }, 1000);
     }
-}
+
 
 export default printNumberInInterval;

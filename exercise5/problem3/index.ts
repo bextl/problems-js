@@ -1,17 +1,9 @@
-function wait(ms) {
-    return new Promise((resolve) => {
-      setTimeout(resolve, ms);
-    });
+function printAsyncNumbers(n: number): void {
+  for (let i = 1; i <= n; i++) {
+    setTimeout(() => {
+      console.log(`after ${i} sec - ${i}`);
+    }, i * 1000);
   }
-
-
-function printAsyncNumbers() {
-
-    await wait(1000);
-  console.log("Passed 1 sec");
-  await wait(2000);
-  console.log("Passed 2 sec");
-
 }
 
 export default printAsyncNumbers;
